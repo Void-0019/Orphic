@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { displayFont } from "@/app/fonts";
 
-export default function Hero() {
+const Hero = () => {
   return (
     <section id="explore" className="relative isolate overflow-hidden bg-[#0c0c0f]">
 
@@ -95,3 +95,5 @@ export default function Hero() {
     </section>
   );
 }
+
+export default Hero;
