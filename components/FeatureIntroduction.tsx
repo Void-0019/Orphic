@@ -37,7 +37,7 @@ const FeatureIntroduction = () => {
         {/* FRAGMENTS */}
         <article className="group relative border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] md:col-span-5 md:pb-8">
           <div className="flex justify-between items-center">
-            <span className="text-xs trackin-[0.2em] text-[#777580]"> 01 — SHARE </span>
+            <span className="text-xs tracking-[0.2em] text-[#777580]"> 01 — SHARE </span>
 
             <MessageCircle
               size={22}
@@ -105,7 +105,7 @@ const FeatureIntroduction = () => {
         {/* CONSTELLATIONS */}
         <article className="group border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] md:col-span-4 md:mt-24 md:pb-8">
           <div className="flex items-center justify-between">
-            <span className="text-xs trackin-[0.2em] text-[#777580]">03 — DISCOVER</span>
+            <span className="text-xs tracking-[0.2em] text-[#777580]">03 — DISCOVER</span>
 
             <Orbit
               size={23}
@@ -152,7 +152,7 @@ const FeatureIntroduction = () => {
                 group-hover:translate-x-1
                 group-hover:-translate-y-1"
             />
-            
+
           </Link>
 
           </div>

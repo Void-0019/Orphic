@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
 
             {/* Primary Action */}
-            <Link href="/signup" className="group inline-flex items-center gap-2 rounded-lg bg-[#9a7cff] px-4 py-2.5 text-sm font-medium text-[#0c0c0f] transition-colors hover:bg-[#b09cff]">
+            <Link href="#join" className="group inline-flex items-center gap-2 rounded-lg bg-[#9a7cff] px-4 py-2.5 text-sm font-medium text-[#0c0c0f] transition-colors hover:bg-[#b09cff]">
             Get Started
             <ArrowUpRight
             size={16} aria-hidden="true" className="transition-transform group-hover:translate-x-0.5 group-hover:translate-y-0.5"
