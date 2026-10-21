@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { displayFont } from "@/app/fonts";
+import LinkButton from "./ui/LinkButton";
 
 const Hero = () => {
   return (
@@ -53,18 +53,18 @@ const Hero = () => {
             <div className="mt-8 flex flex-wrap items-center gap-5">
 
               {/* Primary CTA: points to the Join section */}
-              <Link href="#join" className="group inline-flex items-center gap-2 rounded-lg bg-[#9a7cff] px-5 py-3.5 font-medium text-[#0c0c0f] transition-colors hover:bg-[#b09cff] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#9a7cff]">
+              <LinkButton href="#join" variant="primary" className="px-5 py-3.5">
                 Join Orphic
                 <ArrowUpRight size={18} aria-hidden="true" className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </Link>
+              </LinkButton>
 
               {/* Secondary CTA: points to the About section */}
-              <Link href="#about" className="group inline-flex items-center gap-3 text-sm text-[#c2c0ca] transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#9a7cff]">
+              <LinkButton href="#about" variant="secondary" className="text-sm">
                 <span className="flex size-10 items-center justify-center rounded-full border border-white/20 transition-colors group-hover:border-[#9a7cff]">
                   <ArrowDownRight size={17} aria-hidden="true" className="transition-transform group-hover:translate-x-0.5 group-hover:translate-y-0.5" />
                 </span>
                 Discover Orphic
-              </Link>
+              </LinkButton>
             </div>
 
           </div>
