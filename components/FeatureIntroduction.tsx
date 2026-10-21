@@ -12,7 +12,7 @@ const FeatureIntroduction = () => {
       <div className="grid gap-8 md:grid-cols-12 md:items-end">
         <div className="md:col-span-7">
           <p className="text-xs font-medium uppercase tracking-[0.24em] text-[#9a7cff]">
-            01 / The Orphic experience
+            The Orphic experience
           </p>
 
           <h2 className={`${displayFont.className} mt-6 max-w-2xl text-5xl leading-[0.98] tracking-tight text-[#f3f3f1] sm:text-6xl md:text-7xl`}>
