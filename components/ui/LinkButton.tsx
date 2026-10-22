@@ -10,10 +10,10 @@ type LinkButtonProps = {
 
 const variantStyles = {
   primary:
-    "gap-2 bg-[#9a7cff] font-medium text-[#0c0c0f] hover:bg-[#b09cff]",
+    "gap-2 bg-accent font-medium text-background hover:bg-[#b09cff]",
 
   secondary:
-    "gap-3 text-[#c2c0ca] hover:text-white",
+    "gap-3 text-muted hover:text-foreground",
 };
 
 const LinkButton = (

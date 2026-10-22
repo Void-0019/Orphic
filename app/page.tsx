@@ -11,17 +11,17 @@ export default function Home() {
         <Hero />
 
         {/* About section: secondary CTA destination */}
-        <section id="about" className="scroll-mt-8 border-t border-white/10 bg-[#0c0c0f] px-6 py-24 md:py-32">
+        <section id="about" className="scroll-mt-8 border-t border-white/10 bg-background px-6 py-24 md:py-32">
           <div className="mx-auto max-w-295">
-            <p className="text-xs uppercase tracking-[0.25em] text-[#9a7cff]">
+            <p className="text-xs uppercase tracking-[0.25em] text-accent">
               The idea behind Orphic
             </p>
 
-            <h2 className="mt-5 text-[#f3f3f1] max-w-3xl font-display text-4xl leading-tight sm:text-5xl md:text-6xl">
+            <h2 className="mt-5 text-foreground max-w-3xl font-display text-4xl leading-tight sm:text-5xl md:text-6xl">
               Less noise. More meaning.
             </h2>
 
-            <p className="text-[#a2a2ab] mt-6 text-base leading-8 max-w-2xl font-display md:text-lg">
+            <p className="text-muted mt-6 text-base leading-8 max-w-2xl font-display md:text-lg">
               Orphic is a social space being built around deeper
               conversations, genuine connections, and ideas
               worth exploring.
@@ -34,20 +34,20 @@ export default function Home() {
         
 
         {/* Join section: primary CTA destination */}
-        <section id="join" className="scroll-mt-8 border-t border-white/10 px-6 py-24 bg-[#0c0c0f] md:py-32">
+        <section id="join" className="scroll-mt-8 border-t border-white/10 px-6 py-24 bg-background md:py-32">
 
           <div className="mx-auto max-w-295">
-            <p className="text-[#9a7cff] text-xs uppercase tracking-[0.25em]">
+            <p className="text-accent text-xs uppercase tracking-[0.25em]">
               Your world of ideas
             </p>
 
-            <h2 className="mt-5 max-w-3xl font-display text-[#f3f3f1] text-4xl leading-tight sm:text-5xl md:text-6xl">
+            <h2 className="mt-5 max-w-3xl font-display text-foreground text-4xl leading-tight sm:text-5xl md:text-6xl">
               Find your people.
               <br />
               Follow your curiosity.
             </h2>
 
-            <p className="mt-6 max-w-2xl leading-8 text-[#a2a2ab]">
+            <p className="mt-6 max-w-2xl leading-8 text-muted">
               Discover fresh perspectives, share the things that
               matter to you, and connect with people who make
               every conversation worth having.

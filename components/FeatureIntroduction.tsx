@@ -4,25 +4,25 @@ import { MessageCircle, ArrowUpRight, Orbit, Route } from "lucide-react";
 
 const FeatureIntroduction = () => {
   return (
-    <section id="features" className="relative overflow-hidden border-t border-white/10 bg-[#0c0c0f] px-6 py-24 sm:py-28 md:py-36">
+    <section id="features" className="relative overflow-hidden border-t border-white/10 bg-background px-6 py-24 sm:py-28 md:py-36">
 
       <div className="mx-auto max-w-295">
 
       {/* Section introduction */}
       <div className="grid gap-8 md:grid-cols-12 md:items-end">
         <div className="md:col-span-7">
-          <p className="text-xs font-medium uppercase tracking-[0.24em] text-[#9a7cff]">
+          <p className="text-xs font-medium uppercase tracking-[0.24em] text-accent">
             The Orphic experience
           </p>
 
-          <h2 className={`${displayFont.className} mt-6 max-w-2xl text-5xl leading-[0.98] tracking-tight text-[#f3f3f1] sm:text-6xl md:text-7xl`}>
+          <h2 className={`${displayFont.className} mt-6 max-w-2xl text-5xl leading-[0.98] tracking-tight text-foreground sm:text-6xl md:text-7xl`}>
             Different ways
             <br />
             to <span className="text-[#a88bff]">connect.</span>
           </h2>
         </div>
 
-        <p className="max-w-md pb-1 text-base leading-8 text-[#a2a2ab] md:col-span-5 md:justify-self-end">
+        <p className="max-w-md pb-1 text-base leading-8 text-muted md:col-span-5 md:justify-self-end">
           Not everything worth sharing fits into a feed.
           Explore thoughts, follow ideas, and discover the
           unexpected connections between people.
@@ -43,16 +43,16 @@ const FeatureIntroduction = () => {
               size={22}
               strokeWidth={1.4}
               aria-hidden="true"
-              className="text-[#a2a2ab] transition-all duration-300 group-hover:-translate-y-1 group-hover:text-[#bba5ff]"
+              className="text-muted transition-all duration-300 group-hover:-translate-y-1 group-hover:text-[#bba5ff]"
             />
           </div>
 
           <div className="mt-10">
-            <h3 className={`${displayFont.className} text-4xl text-[#f3f3f1] transition-transform duration-300 group-hover:translate-x-1 group-hover:text-[#c4b2ff] sm:text-5xl`}>
+            <h3 className={`${displayFont.className} text-4xl text-foreground transition-transform duration-300 group-hover:translate-x-1 group-hover:text-[#c4b2ff] sm:text-5xl`}>
               Fragments.
             </h3>
 
-            <p className="mt-5 max-w-sm text-sm leading-7 text-[#a2a2ab] sm:text-base">
+            <p className="mt-5 max-w-sm text-sm leading-7 text-muted sm:text-base">
               Some thoughts deserve a moment of their own.
               Share a passing idea, a small discovery, or
               a perspective that stays with someone.
@@ -61,7 +61,7 @@ const FeatureIntroduction = () => {
 
 
           {/* Decorative quotation mark */}
-          <div aria-hidden="true" className={`${displayFont.className} pointer-events-none absolute -bottom-12 right-2 text-[9rem] leading-none border-white/2.5 transition-colors duration-300 group-hover:text-[#9a7cff]/10`}>
+          <div aria-hidden="true" className={`${displayFont.className} pointer-events-none absolute -bottom-12 right-2 text-[9rem] leading-none border-white/2.5 transition-colors duration-300 group-hover:text-accent/10`}>
             “
           </div>
 
@@ -77,16 +77,16 @@ const FeatureIntroduction = () => {
               size={22}
               strokeWidth={1.4}
               aria-hidden="true"
-              className="text-[#a2a2ab] transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#bba5ff]"
+              className="text-muted transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#bba5ff]"
             />
           </div>
 
           <div className="mt-10">
-            <h3 className={`${displayFont.className} text-4xl text-[#f3f3f1] transition-colors duration-300 group-hover:text-[#c4b2ff] sm:text-5xl`}>
+            <h3 className={`${displayFont.className} text-4xl text-foreground transition-colors duration-300 group-hover:text-[#c4b2ff] sm:text-5xl`}>
               Trails.
             </h3>
 
-            <p className="mt-5 text-sm leading-7 text-[#a2a2ab] sm:text-base">
+            <p className="mt-5 text-sm leading-7 text-muted sm:text-base">
               One idea leads to another. Follow threads
               of thought through related posts,
               conversations, and perspectives.
@@ -95,7 +95,7 @@ const FeatureIntroduction = () => {
 
           {/* A line that grows on hover */}
           <div className="mt-8 h-px w-full bg-white/10">
-            <div className="h-px w-1/4 origin-left bg-[#9a7cff] transition-all duration-500 group-hover:w-full" />
+            <div className="h-px w-1/4 origin-left bg-accent transition-all duration-500 group-hover:w-full" />
           </div>
 
         </article>
@@ -111,18 +111,18 @@ const FeatureIntroduction = () => {
               size={23}
               strokeWidth={1.4}
               aria-hidden="true"
-              className="text-[#a2a2ab] transition-all
+              className="text-muted transition-all
                   duration-500 group-hover:rotate-45
                   group-hover:text-[#bba5ff]"
             />
           </div>
 
           <div className="mt-10">
-            <h3 className={`${displayFont.className} text-4xl text-[#f3f3f1] transition-colors duration-300 group-hover:text-[#c4b2ff] sm:text-5xl`}>
+            <h3 className={`${displayFont.className} text-4xl text-foreground transition-colors duration-300 group-hover:text-[#c4b2ff] sm:text-5xl`}>
               Constellations.
             </h3>
 
-            <p className="mt-5 max-w-sm text-sm leading-7 text-[#a2a2ab] sm:text-base">
+            <p className="mt-5 max-w-sm text-sm leading-7 text-muted sm:text-base">
               Find the people and perspectives that
               connect to your curiosity. Different
               interests, unexpected common ground.
@@ -133,7 +133,7 @@ const FeatureIntroduction = () => {
           <div aria-hidden="true" className="relative mt-8 flex h-10 items-center justify-center gap-7">
             <span className="absolute left-[15%] right-[15%] top-1/2 h-px bg-linear-to-r from-transparent via-[#9a7cff]/40 to-transparent"/>
             <span className="relative size-2 rounded-full bg-[#7660ae] ring-4 ring-[#9a7cff]/10 transition-all duration-300 group-hover:scale-150 group-hover:bg-[#c4b2ff]"/>
-            <span className="relative size-3 rounded-full bg-[#9a7cff] ring-4 ring-[#9a7cff]/10 transition-transform duration-300 group-hover:scale-125"/>
+            <span className="relative size-3 rounded-full bg-accent ring-4 ring-[#9a7cff]/10 transition-transform duration-300 group-hover:scale-125"/>
             <span className="relative size-2 rounded-full bg-[#7660ae] ring-4 ring-[#9a7cff]/10 transition-all duration-300 group-hover:scale-150 group-hover:bg-[#c4b2ff]"/>
           </div>
 

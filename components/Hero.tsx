@@ -5,7 +5,7 @@ import LinkButton from "./ui/LinkButton";
 
 const Hero = () => {
   return (
-    <section id="explore" className="relative isolate overflow-hidden bg-[#0c0c0f]">
+    <section id="explore" className="relative isolate overflow-hidden bg-background">
 
       {/* Planet artwork */}
       <div aria-hidden="true" className="absolute inset-0 z-0">
@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="relative z-10 mx-auto flex min-h-[calc(100svh-80px)] max-w-328 items-center px-6 py-16 md:px-0 md:py-10">
 
         <div className="w-full max-w-147.5">
-          <h1 className={`${displayFont.className} text-[clamp(4rem,7.4vw,7rem)] leading-[0.95] tracking-[-0.055em] text-[#f3f3f1]`}>
+          <h1 className={`${displayFont.className} text-[clamp(4rem,7.4vw,7rem)] leading-[0.95] tracking-[-0.055em] text-foreground`}>
 
             <span className="block">People.</span>
             <span className="block">Ideas.</span>
@@ -42,7 +42,7 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="mt-4 max-w-117.5 text-[17px] leading-9 text-[#b5b3bd] sm:text-lg">
+          <p className="mt-4 max-w-117.5 text-[17px] leading-9 text-muted sm:text-lg">
             A social space for deeper conversations,
             real connections, and a more thoughtful internet.
           </p>

@@ -8,26 +8,26 @@ const navLinks = [
     { label: "Features", href: "#features" },
 ];
 
-const focusStyles = "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a7cff] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0c0c0f]";
+const focusStyles = "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a7cff] focus-visible:ring-offset-4 focus-visible:ring-offset-[#0c0c0f]";
 
 const Navbar = () => {
     return (
-        <header className="relative z-40 border-b border-white/10 bg-[#0c0c0f]">
+        <header className="relative z-40 border-b border-white/10 bg-background">
 
             <div className="mx-auto flex w-full items-center justify-between gap-2 max-w-295 px-4 py-4 sm:px-6 sm:py-5">
 
                 {/* Woodmark */}
                 <Link href="/"
                     aria-label="Orphic home"
-                    className={`shrink-0 rounded-sm text-xl font-semibold text-[#f3f3f1] tracking-tight sm:text-2xl ${focusStyles}`}
+                    className={`shrink-0 rounded-sm text-xl font-semibold text-foreground tracking-tight sm:text-2xl ${focusStyles}`}
                 >
-                    orphic <span className="text-[#9a7cff]">.</span>
+                    orphic <span className="text-accent">.</span>
                 </Link>
 
                 {/* Desktop Navigation */}
                 <nav aria-label="Main navigation" className="hidden items-center gap-8 md:flex">
                     {navLinks.map((link) => (
-                        <Link key={link.label} href={link.href} className={`rounded-sm text-sm text-[#a2a2ab] transition-colors hover:text-[#f3f3f1] ${focusStyles}`}>
+                        <Link key={link.label} href={link.href} className={`rounded-sm text-sm text-muted transition-colors hover:text-foreground ${focusStyles}`}>
                             {link.label}
                         </Link>
                     ))}
@@ -39,7 +39,7 @@ const Navbar = () => {
 
                     {/* Native responsive menu */}
                     <details className="relative md:hidden">
-                        <summary className={`flex size-10 cursor-pointer list-none items-center justify-center rounded-lg border border-white/10 text-[#f3f3f1] transition-colors hover:bg-white/5 [&::-webkit-details-marker]:hidden ${focusStyles}`}>
+                        <summary className={`flex size-10 cursor-pointer list-none items-center justify-center rounded-lg border border-white/10 text-foreground transition-colors hover:bg-white/5 [&::-webkit-details-marker]:hidden ${focusStyles}`}>
                             <Menu size={20} aria-hidden="true" />
                             <span className="sr-only">Toggle navigation menu</span>
                         </summary>
@@ -47,7 +47,7 @@ const Navbar = () => {
                         <nav aria-label="Mobile navigation" className="absolute pl-5 right-0 top-full z-50 mt-3 w-64 max-w-[90vw] rounded-xl border border-white/10 bg-[#151519] p-2 shadow-2xl">
                             {navLinks.map((link) => (
                                 <Link key={link.label} href={link.href}
-                                    className={`flex min-h-11 items-center rounded-lg px-3 py-2text-sm text-[#a2a2ab] transition-colors hover:bg-white/5 hover:text-[#f3f3f1] ${focusStyles}`}>
+                                    className={`flex min-h-11 items-center rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:bg-white/5 hover:text-foreground ${focusStyles}`}>
                                     {link.label}
                                 </Link>
                             ))}

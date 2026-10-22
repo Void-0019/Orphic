@@ -1,8 +1,20 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* Typography */
   --font-display: var(--font-bodoni-moda);
   --font-sans: var(--font-geist);
+
+  /* Orphic design tokens */
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+
+  --color-border: var(--border);
 }
 
 :root {
