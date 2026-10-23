@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
 
       {/* Hero content */}
-      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-80px)] max-w-328 items-center px-6 py-16 md:px-0 md:py-10">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-80px)] max-w-328 items-center px-6 py-16 md:py-10">
 
         <div className="w-full max-w-147.5">
           <h1 className={`${displayFont.className} text-[clamp(4rem,7.4vw,7rem)] leading-[0.95] tracking-[-0.055em] text-foreground`}>
@@ -50,8 +50,6 @@ const Hero = () => {
           {/* Actions */}
           <div className="mt-4 flex flex-wrap items-center gap-5">
 
-            <div className="mt-8 flex flex-wrap items-center gap-5">
-
               {/* Primary CTA: points to the Join section */}
               <LinkButton href="#join" variant="primary" className="px-5 py-3.5">
                 Join Orphic
@@ -65,7 +63,6 @@ const Hero = () => {
                 </span>
                 Discover Orphic
               </LinkButton>
-            </div>
 
           </div>
 

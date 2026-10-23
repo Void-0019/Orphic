@@ -4,25 +4,25 @@ import { MessageCircle, ArrowUpRight, Orbit, Route } from "lucide-react";
 
 const FeatureIntroduction = () => {
   return (
-    <section id="features" className="relative overflow-hidden border-t border-white/10 bg-background px-6 py-24 sm:py-28 md:py-36">
+    <section id="features" className="relative overflow-hidden border-t border-white/10 bg-background px-6 py-24 sm:py-28 xl:py-36">
 
       <div className="mx-auto max-w-295">
 
       {/* Section introduction */}
-      <div className="grid gap-8 md:grid-cols-12 md:items-end">
-        <div className="md:col-span-7">
+      <div className="grid gap-8 xl:grid-cols-12 xl:items-end">
+        <div className="xl:col-span-7">
           <p className="text-xs font-medium uppercase tracking-[0.24em] text-accent">
             The Orphic experience
           </p>
 
-          <h2 className={`${displayFont.className} mt-6 max-w-2xl text-5xl leading-[0.98] tracking-tight text-foreground sm:text-6xl md:text-7xl`}>
+          <h2 className={`${displayFont.className} mt-6 max-w-2xl text-5xl leading-[0.98] tracking-tight text-foreground sm:text-6xl xl:text-7xl`}>
             Different ways
             <br />
             to <span className="text-[#a88bff]">connect.</span>
           </h2>
         </div>
 
-        <p className="max-w-md pb-1 text-base leading-8 text-muted md:col-span-5 md:justify-self-end">
+        <p className="max-w-md pb-1 text-base leading-8 text-muted xl:col-span-5 xl:justify-self-end">
           Not everything worth sharing fits into a feed.
           Explore thoughts, follow ideas, and discover the
           unexpected connections between people.
@@ -32,10 +32,10 @@ const FeatureIntroduction = () => {
 
 
       {/* Editorial feature layout */}
-      <div className="mt-16 grid gap-x-10 gap-y-14 md:mt-24 md:grid-cols-12 md:gap-y-0">
+      <div className="mt-16 grid gap-x-10 gap-y-14 xl:mt-24 xl:grid-cols-12 xl:gap-y-0">
 
         {/* FRAGMENTS */}
-        <article className="group relative border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] md:col-span-5 md:pb-8">
+        <article className="group relative border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] xl:col-span-5 xl:pb-8">
           <div className="flex justify-between items-center">
             <span className="text-xs tracking-[0.2em] text-[#777580]"> 01 — SHARE </span>
 
@@ -69,7 +69,7 @@ const FeatureIntroduction = () => {
 
 
         {/* TRAILS */}
-        <article className="group border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] md:col-span-3 md:mt-12 md:pb-8">
+        <article className="group border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] xl:col-span-3 xl:mt-12 xl:pb-8">
           <div className="flex items-center justify-between">
             <span className="text-xs tracking-[0.2em] text-[#777580]">02 — EXPLORE</span>
 
@@ -103,7 +103,7 @@ const FeatureIntroduction = () => {
 
 
         {/* CONSTELLATIONS */}
-        <article className="group border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] md:col-span-4 md:mt-24 md:pb-8">
+        <article className="group border-t border-white/15 pt-6 transition-colors duration-300 hover:border-[#9a7cff] xl:col-span-4 xl:mt-24 xl:pb-8">
           <div className="flex items-center justify-between">
             <span className="text-xs tracking-[0.2em] text-[#777580]">03 — DISCOVER</span>
 
@@ -141,7 +141,7 @@ const FeatureIntroduction = () => {
       </div>
 
           {/* Closing link */}
-          <div className="mt-16 border-t border-white/10 pt-6 md:mt-20">
+          <div className="mt-16 border-t border-white/10 pt-6 xl:mt-20">
           <Link href="#join" className="group inline-flex items-center gap-3 text-sm text-[#c4b2ff] transition-colors hover:text-white">
           Find your place in the conversation
 
